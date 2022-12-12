@@ -1,0 +1,32 @@
+.component1-container {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-fourunits);
+  flex-direction: column;
+}
+.component1-link {
+  display: contents;
+}
+.component1-component2 {
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .component1-container {
+    height: 445px;
+  }
+}
+@media(max-width: 991px) {
+  .component1-container {
+    width: 45%;
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 767px) {
+  .component1-container {
+    width: 80%;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+}

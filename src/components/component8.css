@@ -1,0 +1,19 @@
+.component8-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.component8-image {
+  width: 50%;
+  align-self: center;
+  object-fit: cover;
+}
+@media(max-width: 1600px) {
+  .component8-image {
+    width: 50%;
+    align-self: center;
+  }
+}

@@ -1,0 +1,19 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+@media(max-width: 1600px) {
+  .component-text {
+    color: var(--dl-color-gray-black);
+  }
+}
+@media(max-width: 1200px) {
+  .component-text {
+    color: var(--dl-color-gray-black);
+  }
+}
+@media(max-width: 991px) {
+  .component-text {
+    color: var(--dl-color-gray-black);
+  }
+}

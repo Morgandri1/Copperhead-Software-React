@@ -1,0 +1,22 @@
+.component7-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.component7-image {
+  width: 50%;
+  object-fit: cover;
+}
+@media(max-width: 1600px) {
+  .component7-container {
+    height: 271px;
+  }
+  .component7-image {
+    width: 50%;
+    height: 272px;
+    align-self: flex-end;
+  }
+}
