@@ -19,7 +19,14 @@ const Home = (props) => {
     <section id="products" className="home-container">
       <Helmet>
         <title>Copperhead Software</title>
-        <meta property="og:title" content="Copperhead Software" />
+        <meta name="title" content="Copperhead Software"/>
+        <meta name="description" content="A software company headed by Morgan Metz and Bradley Smith, specializing in NFTs, social media integrations, and grunt software work."/>
+        <meta name="keywords" content="community, solutions, NFT, discord, discord bot, software, copperhead, copperhead software, custom apps, custom software, bots, custom discord bots, API, heatmapping, website, heatmap API, heatmapping API"/>
+        <meta name="robots" content="index, follow"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="language" content="English"/>
+        <meta name="revisit-after" content="1 days"/>
+        <meta name="author" content="Morgan Metz"/>
       </Helmet>
       <Header></Header>
       <div className="home-hero">
