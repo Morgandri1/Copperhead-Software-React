@@ -81,6 +81,8 @@ const Home = (props) => {
         <Component13 text="We offer premade server templates on the cheap, so you can spend minutes on a server, not hours."></Component13>
       </section>
       <Divider1></Divider1>
+      <div class="senja-frame-embed" data-id="760ac942-8a22-460e-967c-9cb8849bf317"></div>
+      <script defer type="text/javascript" src="https://widget.senja.io/embed/frame.js"></script>
       <section className="home-w-w-u">
         <div className="home-container04">
           <div className="home-container05">
@@ -314,6 +316,13 @@ const Home = (props) => {
             </div>
           </div>
         </div>
+        <Divider></Divider>
+        <div>
+            <div>
+              <h1 className="home-text32">Have you worked with us and want to share a testimonial?</h1>
+              <iframe id="senja-collector-iframe" src="https://senja.io/p/copperhead-software/r/QtkC8M?mode=embed" allow="camera;microphone" frameborder="0" scrolling="no" width="100%" height="400"></iframe>
+            </div>
+          </div>
       </nav>
     </section>
   )

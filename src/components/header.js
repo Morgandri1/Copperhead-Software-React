@@ -23,11 +23,14 @@ const Header = (props) => {
             <Link to="/monarch" className="header-navlink1">
               {props.Monarch}
             </Link>
+            <a href="https://senja.io/p/copperhead-software/testimonials" className='header-navlink1'>
+              Testimonials
+            </a>
           </div>
           <div className="header-container1">
             <div className="header-container2">
               <a
-                href="https://copperheadsoftware.co/#contact"
+                href="#contact"
                 className="header-link"
               >
                 <PrimaryPinkButton
