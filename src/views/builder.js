@@ -19,7 +19,7 @@ class Builder extends React.Component {
 
     event.preventDefault();
     const inputs = this.state;
-    const inputsAsJson = `{<br>` + this.state.input1 + ": {<br>" + this.state.input2 + ":{<br>" + this.state.input3 + ":" + this.state.input4 +`<br>}<br>}<br>}`;
+    const inputsAsJson = `{<br>"` + this.state.input1 + `": {<br>"` + this.state.input2 + `":{<br>"` + this.state.input3 + `":` + this.state.input4 +`<br>}<br>}<br>}`;
     // Do something with the JSON, such as displaying it in a div
     document.getElementById('json-output').innerHTML = inputsAsJson;
   };
