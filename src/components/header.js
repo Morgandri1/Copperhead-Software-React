@@ -39,14 +39,6 @@ const Header = (props) => {
                 ></PrimaryPinkButton>
               </a>
             </div>
-            <div data-role="BurgerMenu" className="header-burger-menu">
-              <svg viewBox="0 0 1024 1024" className="header-icon">
-                <path
-                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
-                  className=""
-                ></path>
-              </svg>
-            </div>
           </div>
         </div>
       </nav>
